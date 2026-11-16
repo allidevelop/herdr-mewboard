@@ -1,5 +1,5 @@
 {
   "global": {
-    "cmd-shift-m": "mod.open:mewboard"
+    "ctrl-shift-m": "mod.open:mewboard"
   }
 }

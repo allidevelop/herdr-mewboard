@@ -12,7 +12,8 @@ uses); another address and token come from `mewboard.local.json`.
 - `mods/mewboard/main.js` — the popup View. Covered by `tests/test_main.mjs`
   (fake Herdr host and fake Mewboard API).
 - `install.py` — copies the mod into `~/.config/herdr-app/mods/mewboard` and
-  merges one key (keys.json on macOS, keys.windows.json elsewhere).
+  merges one key (keys.json for Windows and Linux, keys.macos.json for macOS,
+  as in Herdr itself).
 - Herdr's mod API: `~/.config/herdr-app/AGENTS.md`, `herdr.d.ts`, `gpui-kit.d.ts`.
 
 ## Rules

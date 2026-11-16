@@ -17,8 +17,8 @@ ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / 'mods' / 'mewboard'
 FILES = ('main.js', 'model.js', 'mod.json')
 PERSONAL = 'mewboard.local.json'
-# Herdr's defaults use Cmd on macOS and Ctrl elsewhere.
-KEYS = ROOT / ('keys.json' if sys.platform == 'darwin' else 'keys.windows.json')
+# Herdr's own convention: keys.json for Windows and Linux, keys.macos.json for macOS.
+KEYS = ROOT / ('keys.macos.json' if sys.platform == 'darwin' else 'keys.json')
 MARK = '.herdr-mewboard-install.json'
 
 
