@@ -79,3 +79,7 @@ py -B verify.py
 ```
 
 Тесты логики и попапа (Node.js) и установщика (Python).
+
+## Лицензия
+
+[Apache-2.0](LICENSE).

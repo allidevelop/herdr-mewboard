@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: Apache-2.0
 // Pure logic of the Mewboard mod: no Herdr imports, so tests can load it alone.
 
 export const DEFAULT_BASE = "http://127.0.0.1:4800";

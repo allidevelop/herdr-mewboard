@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: Apache-2.0
 // Mewboard for Herdr: the open tasks of this folder's Mewboard project (or all of
 // yours) in a popup, handed to the agent of this space in one key.
 //
