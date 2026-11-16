@@ -1,0 +1,2 @@
+# Herdr reads these files as they are; keep LF everywhere.
+* text=auto eol=lf
